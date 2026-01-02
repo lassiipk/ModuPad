@@ -259,8 +259,9 @@ Every decision made in this project supports **clarity, control, and learning**.
 
 ---
 | Schematic | PCB | Case |
-|---|---|
-| <img width="1818" height="879" alt="01_KiCad_Schematic" src="https://github.com/user-attachments/assets/f3e017b2-80b7-48d1-9e30-7a34b8d917aa" /> | <img width="1920" height="1080" alt="02_KiCad_PCB" src="https://github.com/user-attachments/assets/1682921c-09cf-4254-99f6-64b99035cbf7" /> | <img width="1920" height="906" alt="Screenshot 2026-01-02 214436" src="https://github.com/user-attachments/assets/2018dd81-1d8e-40cc-a252-7573122f007c" /> |
+|-----------|-----|------|
+| <img src="https://github.com/user-attachments/assets/f3e017b2-80b7-48d1-9e30-7a34b8d917aa" alt="KiCad Schematic" width="600"> | <img src="https://github.com/user-attachments/assets/1682921c-09cf-4254-99f6-64b99035cbf7" alt="KiCad PCB" width="600"> | <img src="https://github.com/user-attachments/assets/2018dd81-1d8e-40cc-a252-7573122f007c" alt="Case Screenshot" width="600"> |
+
 
 
 
