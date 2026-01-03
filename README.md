@@ -50,7 +50,7 @@ This project prioritizes **learning clarity, reasoning, and correctness** over v
 
 ---
 
-## Firmware Overview (Final)
+## Firmware Overview
 
 - **Firmware Framework:** KMK (Python‑based)
 - **Reason for KMK**
@@ -63,7 +63,7 @@ Firmware was designed **before physical assembly**, allowing logic review and it
 
 ---
 
-## Encoder Behavior (Final)
+## Encoder Behavior
 
 ### Encoder Rotation
 - Controls **system volume only**
@@ -77,7 +77,7 @@ Firmware was designed **before physical assembly**, allowing logic review and it
 
 ---
 
-## OLED System (Final)
+## OLED System
 
 ### OLED Modes
 1. **Animation Mode**
