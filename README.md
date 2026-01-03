@@ -2,7 +2,6 @@
 <img width="1920" height="1080" alt="ModuPad_FullProduct_Image" src="https://github.com/user-attachments/assets/18347e8f-02f0-41bc-9357-31d783e794c6" />
 
 **MODUPAD** is a compact **3×3 programmable macropad with a rotary encoder** designed with a **macro‑first, learning‑driven philosophy**.  
-Rather than copying a numpad or keyboard block, every key and interaction is intentionally designed around **custom macros, system actions, and workflow automation**.
 
 This project represents a **from‑scratch learning journey** covering electronics, schematic design, PCB layout, firmware architecture, and documentation—while still resulting in a practical, daily‑use device.
 
