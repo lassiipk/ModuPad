@@ -50,20 +50,6 @@ This project prioritizes **learning clarity, reasoning, and correctness** over v
 
 ---
 
-## Hardware Overview (Final)
-
-- **Microcontroller:** Seeed Studio XIAO RP2040
-- **Keys:** 9 × MX‑style switches
-- **Diodes:** 1N4148 (matrix isolation)
-- **Encoder:** EC11 rotary encoder with push button
-- **Display:** 0.91” I²C OLED (128×32)
-- **Connectivity:** USB‑C
-- **Case:** Custom‑designed in Fusion 360, 3D‑printed
-
-All hardware choices prioritize **documentation availability, beginner accessibility, and reliability**.
-
----
-
 ## Firmware Overview (Final)
 
 - **Firmware Framework:** KMK (Python‑based)
@@ -143,6 +129,8 @@ Every decision made in this project supports **clarity, control, and learning**.
 - **Display:** 0.91” I²C OLED (128×32)
 - **Connectivity:** USB‑C
 - **Case:** Custom‑designed in Fusion 360, 3D‑printed
+
+All hardware choices prioritize **documentation availability, beginner accessibility, and reliability**.
 
 ---
 | Schematic | PCB | Case |
