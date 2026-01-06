@@ -137,15 +137,18 @@ All hardware choices prioritize **documentation availability, beginner accessibi
 |-----------|-----|------|
 | <img src="https://github.com/user-attachments/assets/f3e017b2-80b7-48d1-9e30-7a34b8d917aa" alt="KiCad Schematic" width="600"> | <img src="https://github.com/user-attachments/assets/1682921c-09cf-4254-99f6-64b99035cbf7" alt="KiCad PCB" width="600"> | <img src="https://github.com/user-attachments/assets/2018dd81-1d8e-40cc-a252-7573122f007c" alt="Case Screenshot" width="600"> |
 
-
-
-
+---
 
 ## License
 
 This project is open‑source and intended for **educational and personal use**.  
 License details will be added as the project evolves.
 
-### Project Stated: 29th December, 2025 | 11:58 PM
-### Project Ended: 2nd January, 2026 | 7:58 PM
-### Project Ended: 2nd January, 2026 | 7:58 PM
+---
+
+### Project Stated:
+> 29th December, 2025 | 11:58 PM
+### Project Ended:
+> 2nd January, 2026 | 7:58 PM
+### Project Ended:
+> 2nd January, 2026 | 7:58 PM
