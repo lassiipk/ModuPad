@@ -145,3 +145,7 @@ All hardware choices prioritize **documentation availability, beginner accessibi
 
 This project is open‑source and intended for **educational and personal use**.  
 License details will be added as the project evolves.
+
+### Project Stated: 29th December, 2025 | 11:58 PM
+### Project Ended: 2nd January, 2026 | 7:58 PM
+### Project Ended: 2nd January, 2026 | 7:58 PM
