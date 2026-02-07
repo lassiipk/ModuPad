@@ -2,8 +2,8 @@ import board
 import digitalio
 import time
 
-a = digitalio.DigitalInOut(board.D3)
-b = digitalio.DigitalInOut(board.D8)
+a = digitalio.DigitalInOut(board.D6)
+b = digitalio.DigitalInOut(board.D7)
 
 a.pull = digitalio.Pull.UP
 b.pull = digitalio.Pull.UP
