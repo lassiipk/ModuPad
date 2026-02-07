@@ -1,0 +1,21 @@
+# MCU
+
+MCU = RP2040
+BOOTLOADER = rp2040
+
+# Features (minimal)
+
+VIA_ENABLE = yes
+ENCODER_ENABLE = yes
+OLED_ENABLE = yes
+
+# Disable unused features
+
+RGBLIGHT_ENABLE = no
+RGB_MATRIX_ENABLE = no
+AUDIO_ENABLE = no
+CONSOLE_ENABLE = no
+EXTRAKEY_ENABLE = yes
+NKRO_ENABLE = no
+
+LTO_ENABLE = yes
