@@ -1,0 +1,28 @@
+#pragma once
+
+#define MATRIX_ROWS 3
+#define MATRIX_COLS 4
+
+#define MATRIX_ROW_PINS { GP8, GP9, GP10 }
+#define MATRIX_COL_PINS { GP0, GP1, GP2, GP3 }
+
+#define DIODE_DIRECTION COL2ROW
+
+// Encoder
+#define ENCODERS_PAD_A { GP6 }
+#define ENCODERS_PAD_B { GP7 }
+#define ENCODER_RESOLUTION 4
+
+// I2C OLED
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP4
+#define I2C1_SCL_PIN GP5
+
+#define OLED_DISPLAY_128X32
+#define OLED_BRIGHTNESS 120
+
+// VIA
+#define VIA_EEPROM_LAYOUT_OPTIONS_SIZE 2
+
+// Tapping
+#define TAPPING_TERM 200
