@@ -1,0 +1,620 @@
+Welcome to QMK MSYS!
+  * Documentation:    https://docs.qmk.fm
+  * Support:          https://discord.gg/qmk
+
+If you have not already done so,
+  run qmk setup to get started.
+  run qmk compile -kb <keyboard> -km default to start building.
+  run qmk config user.hide_welcome=True to hide this message.
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb ModuPad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=ModuPad KEYMAP=via KEYBOARD_FILESAFE=ModuPad TARGET=ModuPad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+⚠ ModuPad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ ModuPad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+☒ Invalid API data: ModuPad: keyboard_folder: 'ModuPad' does not match '^[0-9a-z][0-9a-z_/]*$'
+⚠ ModuPad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ ModuPad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+☒ Invalid API data: ModuPad: keyboard_folder: 'ModuPad' does not match '^[0-9a-z][0-9a-z_/]*$'
+
+ *                                                                                                     [ERRORS]
+
+builddefs/build_keyboard.mk:306: *** Platform not defined.  Stop.
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=modupad KEYMAP=via KEYBOARD_FILESAFE=modupad TARGET=modupad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+Generating: .build/obj_modupad_via/src/info_deps.d                                                  [OK]
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+Generating: .build/obj_modupad_via/src/default_keyboard.c                                           [WARNINGS]
+ |
+ | ⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+ | ⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+ |
+arm-none-eabi-gcc.exe (crosstool-NG 1.27.0.82_7f9d704 - qmk/qmk_toolchains @ a55a2b0) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Generating: .build/obj_modupad_via/src/info_config.h                                                [WARNINGS]
+ |
+ | ⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+ | ⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+ |
+Generating: .build/obj_modupad_via/src/default_keyboard.h                                           [WARNINGS]
+ |
+ | ⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+ | ⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+ |
+Compiling: .build/obj_modupad_via/src/default_keyboard.c                                           In file included from quantum/quantum.h:215,
+                 from ./.build/obj_modupad_via/src/default_keyboard.h:28,
+                 from .build/obj_modupad_via/src/default_keyboard.c:26:
+quantum/encoder.h:27:13: error: 'ENCODER_A_PINS' redefined [-Werror]
+   27 | #    define ENCODER_A_PINS ENCODERS_PAD_A
+      |             ^~~~~~~~~~~~~~
+In file included from <command-line>:
+./.build/obj_modupad_via/src/info_config.h:61:13: note: this is the location of the previous definition
+   61 | #    define ENCODER_A_PINS { GP6 }
+      |             ^~~~~~~~~~~~~~
+quantum/encoder.h:30:13: error: 'ENCODER_B_PINS' redefined [-Werror]
+   30 | #    define ENCODER_B_PINS ENCODERS_PAD_B
+      |             ^~~~~~~~~~~~~~
+./.build/obj_modupad_via/src/info_config.h:65:13: note: this is the location of the previous definition
+   65 | #    define ENCODER_B_PINS { GP7 }
+      |             ^~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+ [ERRORS]
+ |
+ |
+ |
+make: *** [builddefs/common_rules.mk:362: .build/obj_modupad_via/.build/obj_modupad_via/src/default_keyboard.o] Error 1
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+usage: qmk.exe compile [-h] [--compiledb] [-t TARGET] [-c] [-e ENV] [-j PARALLEL] [-n] [-km KEYMAP] [-kb KEYBOARD] [filename]
+qmk.exe compile: error: argument -kb/--keyboard: invalid keyboard_folder_or_all value: 'modupad'
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=modupad KEYMAP=via KEYBOARD_FILESAFE=modupad TARGET=modupad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+arm-none-eabi-gcc.exe (crosstool-NG 1.27.0.82_7f9d704 - qmk/qmk_toolchains @ a55a2b0) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling: .build/obj_modupad_via/src/default_keyboard.c                                            [OK]
+Compiling: quantum/keymap_introspection.c                                                          In file included from quantum/keymap_introspection.c:9:
+./keyboards/modupad/keymaps/via/keymap.c: In function 'process_record_user':
+./keyboards/modupad/keymaps/via/keymap.c:46:1: error: stray '`' in program
+   46 | ```
+      | ^
+./keyboards/modupad/keymaps/via/keymap.c:46:2: error: stray '`' in program
+   46 | ```
+      |  ^
+./keyboards/modupad/keymaps/via/keymap.c:46:3: error: stray '`' in program
+   46 | ```
+      |   ^
+./keyboards/modupad/keymaps/via/keymap.c:70:1: error: stray '`' in program
+   70 | ```
+      | ^
+./keyboards/modupad/keymaps/via/keymap.c:70:2: error: stray '`' in program
+   70 | ```
+      |  ^
+./keyboards/modupad/keymaps/via/keymap.c:70:3: error: stray '`' in program
+   70 | ```
+      |   ^
+./keyboards/modupad/keymaps/via/keymap.c: In function 'oled_task_user':
+./keyboards/modupad/keymaps/via/keymap.c:79:1: error: stray '`' in program
+   79 | ```
+      | ^
+./keyboards/modupad/keymaps/via/keymap.c:79:2: error: stray '`' in program
+   79 | ```
+      |  ^
+./keyboards/modupad/keymaps/via/keymap.c:79:3: error: stray '`' in program
+   79 | ```
+      |   ^
+./keyboards/modupad/keymaps/via/keymap.c:107:1: error: stray '`' in program
+  107 | ```
+      | ^
+./keyboards/modupad/keymaps/via/keymap.c:107:2: error: stray '`' in program
+  107 | ```
+      |  ^
+./keyboards/modupad/keymaps/via/keymap.c:107:3: error: stray '`' in program
+  107 | ```
+      |   ^
+ [ERRORS]
+ |
+ |
+ |
+make: *** [builddefs/common_rules.mk:362: .build/obj_modupad_via/quantum/keymap_introspection.o] Error 1
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=modupad KEYMAP=via KEYBOARD_FILESAFE=modupad TARGET=modupad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+arm-none-eabi-gcc.exe (crosstool-NG 1.27.0.82_7f9d704 - qmk/qmk_toolchains @ a55a2b0) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling: quantum/keymap_introspection.c                                                          In file included from quantum/keymap_introspection.c:9:
+./keyboards/modupad/keymaps/via/keymap.c:15:12: error: 'volume_level' defined but not used [-Werror=unused-variable]
+   15 | static int volume_level = 50;
+      |            ^~~~~~~~~~~~
+./keyboards/modupad/keymaps/via/keymap.c:14:17: error: 'encoder_btn_timer' defined but not used [-Werror=unused-variable]
+   14 | static uint16_t encoder_btn_timer = 0;
+      |                 ^~~~~~~~~~~~~~~~~
+./keyboards/modupad/keymaps/via/keymap.c:13:13: error: 'oled_power' defined but not used [-Werror=unused-variable]
+   13 | static bool oled_power = true;
+      |             ^~~~~~~~~~
+./keyboards/modupad/keymaps/via/keymap.c:12:16: error: 'oled_mode' defined but not used [-Werror=unused-variable]
+   12 | static uint8_t oled_mode = 0;     // 0 = animation, 1 = status
+      |                ^~~~~~~~~
+cc1.exe: all warnings being treated as errors
+ [ERRORS]
+ |
+ |
+ |
+make: *** [builddefs/common_rules.mk:362: .build/obj_modupad_via/quantum/keymap_introspection.o] Error 1
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=modupad KEYMAP=via KEYBOARD_FILESAFE=modupad TARGET=modupad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+arm-none-eabi-gcc.exe (crosstool-NG 1.27.0.82_7f9d704 - qmk/qmk_toolchains @ a55a2b0) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling: quantum/keymap_introspection.c                                                           [OK]
+Compiling: quantum/quantum.c                                                                        [OK]
+Compiling: quantum/bitwise.c                                                                        [OK]
+Compiling: quantum/led.c                                                                            [OK]
+Compiling: quantum/action.c                                                                         [OK]
+Compiling: quantum/action_layer.c                                                                   [OK]
+Compiling: quantum/action_tapping.c                                                                 [OK]
+Compiling: quantum/action_util.c                                                                    [OK]
+Compiling: quantum/eeconfig.c                                                                       [OK]
+Compiling: quantum/keyboard.c                                                                       [OK]
+Compiling: quantum/keymap_common.c                                                                  [OK]
+Compiling: quantum/keycode_config.c                                                                 [OK]
+Compiling: quantum/sync_timer.c                                                                     [OK]
+Compiling: quantum/logging/debug.c                                                                  [OK]
+Compiling: quantum/logging/sendchar.c                                                               [OK]
+Compiling: quantum/process_keycode/process_default_layer.c                                          [OK]
+Compiling: quantum/process_keycode/process_oneshot.c                                                [OK]
+Compiling: quantum/process_keycode/process_quantum.c                                                [OK]
+Compiling: quantum/nvm/eeprom/nvm_eeconfig.c                                                        [OK]
+Compiling: quantum/logging/print.c                                                                  [OK]
+Compiling: quantum/matrix_common.c                                                                  [OK]
+Compiling: quantum/matrix.c                                                                         [OK]
+Compiling: quantum/debounce/sym_defer_g.c                                                           [OK]
+Compiling: quantum/main.c                                                                           [OK]
+Compiling: lib/printf/src/printf/printf.c                                                           [OK]
+Compiling: drivers/eeprom/eeprom_driver.c                                                           [OK]
+Compiling: drivers/eeprom/eeprom_wear_leveling.c                                                    [OK]
+Compiling: quantum/wear_leveling/wear_leveling.c                                                    [OK]
+Compiling: platforms/chibios/drivers/wear_leveling/wear_leveling_rp2040_flash.c                     [OK]
+Compiling: quantum/raw_hid.c                                                                        [OK]
+Compiling: lib/fnv/qmk_fnv_type_validation.c                                                        [OK]
+Compiling: lib/fnv/hash_32a.c                                                                       [OK]
+Compiling: lib/fnv/hash_64a.c                                                                       [OK]
+Compiling: drivers/oled/oled_driver.c                                                               [OK]
+Compiling: quantum/encoder.c                                                                        [OK]
+Compiling: drivers/encoder/encoder_quadrature.c                                                     [OK]
+Compiling: quantum/bootmagic/bootmagic.c                                                            [OK]
+Compiling: quantum/dynamic_keymap.c                                                                 [OK]
+Compiling: quantum/nvm/eeprom/nvm_dynamic_keymap.c                                                  [OK]
+Compiling: quantum/process_keycode/process_grave_esc.c                                              [OK]
+Compiling: quantum/process_keycode/process_magic.c                                                  [OK]
+Compiling: quantum/send_string/send_string.c                                                        [OK]
+Compiling: quantum/process_keycode/process_space_cadet.c                                            [OK]
+Compiling: quantum/process_keycode/process_tri_layer.c                                              [OK]
+Compiling: quantum/tri_layer.c                                                                      [OK]
+Compiling: quantum/via.c                                                                            [OK]
+Compiling: quantum/nvm/eeprom/nvm_via.c                                                             [OK]
+Compiling: tmk_core/protocol/host.c                                                                 [OK]
+Compiling: tmk_core/protocol/report.c                                                               [OK]
+Compiling: tmk_core/protocol/usb_device_state.c                                                     [OK]
+Compiling: tmk_core/protocol/usb_util.c                                                             [OK]
+Compiling: platforms/suspend.c                                                                      [OK]
+Compiling: platforms/synchronization_util.c                                                         [OK]
+Compiling: platforms/timer.c                                                                        [OK]
+Compiling: platforms/chibios/hardware_id.c                                                          [OK]
+Compiling: platforms/chibios/platform.c                                                             [OK]
+Compiling: platforms/chibios/suspend.c                                                              [OK]
+Compiling: platforms/chibios/timer.c                                                                [OK]
+Compiling: platforms/chibios/bootloaders/rp2040.c                                                   [OK]
+Compiling: platforms/chibios/drivers/i2c_master.c                                                   [OK]
+Archiving: .build/obj_modupad_via/i2c_master.o                                                      [OK]
+Assembling: lib/chibios/os/common/startup/ARMCMx/compilers/GCC/crt0_v6m.S                           [OK]
+Assembling: lib/chibios/os/common/startup/ARMCMx/compilers/GCC/vectors.S                            [OK]
+Assembling: lib/chibios/os/common/ports/ARMv6-M-RP2/compilers/GCC/chcoreasm.S                       [OK]
+Compiling: tmk_core/protocol/chibios/usb_main.c                                                     [OK]
+Compiling: tmk_core/protocol/chibios/chibios.c                                                      [OK]
+Compiling: tmk_core/protocol/usb_descriptor.c                                                      tmk_core/protocol/usb_descriptor.c:514:35: error: 'VENDOR_ID' undeclared here (not in a function)
+  514 |     .VendorID                   = VENDOR_ID,
+      |                                   ^~~~~~~~~
+tmk_core/protocol/usb_descriptor.c:515:35: error: 'PRODUCT_ID' undeclared here (not in a function); did you mean 'PRODUCT'?
+  515 |     .ProductID                  = PRODUCT_ID,
+      |                                   ^~~~~~~~~~
+      |                                   PRODUCT
+tmk_core/protocol/usb_descriptor.c:516:35: error: 'DEVICE_VER' undeclared here (not in a function)
+  516 |     .ReleaseNumber              = DEVICE_VER,
+      |                                   ^~~~~~~~~~
+ [ERRORS]
+ |
+ |
+ |
+make: *** [builddefs/common_rules.mk:362: .build/obj_modupad_via/usb_descriptor.o] Error 1
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=modupad KEYMAP=via KEYBOARD_FILESAFE=modupad TARGET=modupad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+☒ modupad: DESCRIPTION in config.h is no longer a valid option and should be removed
+⚠ modupad: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+⚠ modupad: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+⚠ modupad: MANUFACTURER in config.h is overwriting manufacturer in info.json
+⚠ modupad: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+⚠ modupad: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+⚠ modupad: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+☒ modupad: DESCRIPTION in config.h is no longer a valid option and should be removed
+⚠ modupad: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+⚠ modupad: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+⚠ modupad: MANUFACTURER in config.h is overwriting manufacturer in info.json
+⚠ modupad: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+⚠ modupad: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+⚠ modupad: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+arm-none-eabi-gcc.exe (crosstool-NG 1.27.0.82_7f9d704 - qmk/qmk_toolchains @ a55a2b0) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling: .build/obj_modupad_via/src/default_keyboard.c                                            [OK]
+Compiling: quantum/keymap_introspection.c                                                           [OK]
+Compiling: quantum/quantum.c                                                                        [OK]
+Compiling: quantum/bitwise.c                                                                        [OK]
+Compiling: quantum/led.c                                                                            [OK]
+Compiling: quantum/action.c                                                                         [OK]
+Compiling: quantum/action_layer.c                                                                   [OK]
+Compiling: quantum/action_tapping.c                                                                 [OK]
+Compiling: quantum/action_util.c                                                                    [OK]
+Compiling: quantum/eeconfig.c                                                                       [OK]
+Compiling: quantum/keyboard.c                                                                       [OK]
+Compiling: quantum/keymap_common.c                                                                  [OK]
+Compiling: quantum/keycode_config.c                                                                 [OK]
+Compiling: quantum/sync_timer.c                                                                     [OK]
+Compiling: quantum/logging/debug.c                                                                  [OK]
+Compiling: quantum/logging/sendchar.c                                                               [OK]
+Compiling: quantum/process_keycode/process_default_layer.c                                          [OK]
+Compiling: quantum/process_keycode/process_oneshot.c                                                [OK]
+Compiling: quantum/process_keycode/process_quantum.c                                                [OK]
+Compiling: quantum/nvm/eeprom/nvm_eeconfig.c                                                        [OK]
+Compiling: quantum/logging/print.c                                                                  [OK]
+Compiling: quantum/matrix_common.c                                                                  [OK]
+Compiling: quantum/matrix.c                                                                         [OK]
+Compiling: quantum/debounce/sym_defer_g.c                                                           [OK]
+Compiling: quantum/main.c                                                                           [OK]
+Compiling: lib/printf/src/printf/printf.c                                                           [OK]
+Compiling: drivers/eeprom/eeprom_driver.c                                                           [OK]
+Compiling: drivers/eeprom/eeprom_wear_leveling.c                                                    [OK]
+Compiling: quantum/wear_leveling/wear_leveling.c                                                    [OK]
+Compiling: platforms/chibios/drivers/wear_leveling/wear_leveling_rp2040_flash.c                     [OK]
+Compiling: quantum/raw_hid.c                                                                        [OK]
+Compiling: lib/fnv/qmk_fnv_type_validation.c                                                        [OK]
+Compiling: lib/fnv/hash_32a.c                                                                       [OK]
+Compiling: lib/fnv/hash_64a.c                                                                       [OK]
+Compiling: drivers/oled/oled_driver.c                                                               [OK]
+Compiling: quantum/encoder.c                                                                        [OK]
+Compiling: drivers/encoder/encoder_quadrature.c                                                     [OK]
+Compiling: quantum/bootmagic/bootmagic.c                                                            [OK]
+Compiling: quantum/dynamic_keymap.c                                                                 [OK]
+Compiling: quantum/nvm/eeprom/nvm_dynamic_keymap.c                                                  [OK]
+Compiling: quantum/process_keycode/process_grave_esc.c                                              [OK]
+Compiling: quantum/process_keycode/process_magic.c                                                  [OK]
+Compiling: quantum/send_string/send_string.c                                                        [OK]
+Compiling: quantum/process_keycode/process_space_cadet.c                                            [OK]
+Compiling: quantum/process_keycode/process_tri_layer.c                                              [OK]
+Compiling: quantum/tri_layer.c                                                                      [OK]
+Compiling: quantum/via.c                                                                            [OK]
+Compiling: quantum/nvm/eeprom/nvm_via.c                                                             [OK]
+Compiling: tmk_core/protocol/host.c                                                                 [OK]
+Compiling: tmk_core/protocol/report.c                                                               [OK]
+Compiling: tmk_core/protocol/usb_device_state.c                                                     [OK]
+Compiling: tmk_core/protocol/usb_util.c                                                             [OK]
+Compiling: platforms/suspend.c                                                                      [OK]
+Compiling: platforms/synchronization_util.c                                                         [OK]
+Compiling: platforms/timer.c                                                                        [OK]
+Compiling: platforms/chibios/hardware_id.c                                                          [OK]
+Compiling: platforms/chibios/platform.c                                                             [OK]
+Compiling: platforms/chibios/suspend.c                                                              [OK]
+Compiling: platforms/chibios/timer.c                                                                [OK]
+Compiling: platforms/chibios/bootloaders/rp2040.c                                                   [OK]
+Compiling: platforms/chibios/drivers/i2c_master.c                                                   [OK]
+Archiving: .build/obj_modupad_via/i2c_master.o                                                      [OK]
+Compiling: tmk_core/protocol/chibios/usb_main.c                                                     [OK]
+Compiling: tmk_core/protocol/chibios/chibios.c                                                      [OK]
+Compiling: tmk_core/protocol/usb_descriptor.c                                                      tmk_core/protocol/usb_descriptor_common.h:21:29: error: 'LCustom' undeclared here (not in a function)
+   21 | #define USBSTR(s) USBCONCAT(L, s)
+      |                             ^
+tmk_core/protocol/usb_descriptor.c:1107:47: note: in definition of macro 'USB_DESCRIPTOR_SIZE_LITERAL_U16STRING'
+ 1107 |     (sizeof(USB_Descriptor_Header_t) + sizeof(str) - sizeof(wchar_t)) // include header, don't count null terminator
+      |                                               ^~~
+tmk_core/protocol/usb_descriptor_common.h:21:19: note: in expansion of macro 'USBCONCAT'
+   21 | #define USBSTR(s) USBCONCAT(L, s)
+      |                   ^~~~~~~~~
+tmk_core/protocol/usb_descriptor.c:1119:73: note: in expansion of macro 'USBSTR'
+ 1119 |         .Size                   = USB_DESCRIPTOR_SIZE_LITERAL_U16STRING(USBSTR(MANUFACTURER)),
+      |                                                                         ^~~~~~
+tmk_core/protocol/usb_descriptor_common.h:21:29: error: 'LXIAO_Macropad' undeclared here (not in a function)
+   21 | #define USBSTR(s) USBCONCAT(L, s)
+      |                             ^
+tmk_core/protocol/usb_descriptor.c:1107:47: note: in definition of macro 'USB_DESCRIPTOR_SIZE_LITERAL_U16STRING'
+ 1107 |     (sizeof(USB_Descriptor_Header_t) + sizeof(str) - sizeof(wchar_t)) // include header, don't count null terminator
+      |                                               ^~~
+tmk_core/protocol/usb_descriptor_common.h:21:19: note: in expansion of macro 'USBCONCAT'
+   21 | #define USBSTR(s) USBCONCAT(L, s)
+      |                   ^~~~~~~~~
+tmk_core/protocol/usb_descriptor.c:1127:73: note: in expansion of macro 'USBSTR'
+ 1127 |         .Size                   = USB_DESCRIPTOR_SIZE_LITERAL_U16STRING(USBSTR(PRODUCT)),
+      |                                                                         ^~~~~~
+ [ERRORS]
+ |
+ |
+ |
+make: *** [builddefs/common_rules.mk:362: .build/obj_modupad_via/usb_descriptor.o] Error 1
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=modupad KEYMAP=via KEYBOARD_FILESAFE=modupad TARGET=modupad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+☒ Not including data from file: keyboards/modupad/keyboard.json
+☒       usb.device_version: '0x0001' does not match '^[0-9]{1,2}\\.[0-9]\\.[0-9]$'
+☒ modupad: No LAYOUTs defined! Need at least one layout defined in info.json.
+☒ Not including data from file: keyboards/modupad/keyboard.json
+☒       usb.device_version: '0x0001' does not match '^[0-9]{1,2}\\.[0-9]\\.[0-9]$'
+☒ modupad: No LAYOUTs defined! Need at least one layout defined in info.json.
+Generating: .build/obj_modupad_via/src/default_keyboard.c                                           [ERRORS]
+ |
+ | ☒ Not including data from file: keyboards/modupad/keyboard.json
+ | ☒    usb.device_version: '0x0001' does not match '^[0-9]{1,2}\\.[0-9]\\.[0-9]$'
+ | ☒ modupad: No LAYOUTs defined! Need at least one layout defined in info.json.
+ | <class 'UnboundLocalError'>
+ | ☒ cannot access local variable 'layout' where it is not associated with a value
+ | Traceback (most recent call last):
+ |   File "C:/QMK_MSYS/mingw64/lib/python3.12/site-packages/milc/milc.py", line 609, in __call__
+ |     return self.__call__()
+ |            ^^^^^^^^^^^^^^^
+ |   File "C:/QMK_MSYS/mingw64/lib/python3.12/site-packages/milc/milc.py", line 614, in __call__
+ |     return self._subcommand(self)
+ |            ^^^^^^^^^^^^^^^^^^^^^^
+ |   File "C:/Users/lasipK/qmk_firmware/lib/python/qmk/cli/generate/keyboard_c.py", line 271, in generate_keyboard_c
+ |     keyboard_c_lines.extend(_gen_chordal_hold_layout(kb_info_json))
+ |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ |   File "C:/Users/lasipK/qmk_firmware/lib/python/qmk/cli/generate/keyboard_c.py", line 215, in _gen_chordal_hold_layout
+ |     if layout.is_symmetric():
+ |        ^^^^^^
+ | UnboundLocalError: cannot access local variable 'layout' where it is not associated with a value
+ |
+make: *** [builddefs/build_keyboard.mk:445: .build/obj_modupad_via/src/default_keyboard.c] Error 1
+[lasipK@DESKTOP-QTJO234 ~]$ [A
+bash: [A: command not found
+[lasipK@DESKTOP-QTJO234 ~]$ qmk compile -kb modupad -km via
+Ψ Compiling keymap with make -r -R -f builddefs/build_keyboard.mk -s KEYBOARD=modupad KEYMAP=via KEYBOARD_FILESAFE=modupad TARGET=modupad_via VERBOSE=false COLOR=true SILENT=false QMK_BIN="qmk"
+
+
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+Generating: .build/obj_modupad_via/src/default_keyboard.c                                           [WARNINGS]
+ |
+ | ⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+ | ⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+ |
+arm-none-eabi-gcc.exe (crosstool-NG 1.27.0.82_7f9d704 - qmk/qmk_toolchains @ a55a2b0) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Generating: .build/obj_modupad_via/src/info_config.h                                                [WARNINGS]
+ |
+ | ⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+ | ⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+ |
+Generating: .build/obj_modupad_via/src/default_keyboard.h                                           [WARNINGS]
+ |
+ | ⚠ modupad: DIODE_DIRECTION in config.h is overwriting diode_direction in info.json
+ | ⚠ modupad: Matrix pins are specified in both info.json and config.h, the config.h values win.
+ |
+Compiling: .build/obj_modupad_via/src/default_keyboard.c                                            [OK]
+Compiling: quantum/keymap_introspection.c                                                           [OK]
+Compiling: quantum/quantum.c                                                                        [OK]
+Compiling: quantum/bitwise.c                                                                        [OK]
+Compiling: quantum/led.c                                                                            [OK]
+Compiling: quantum/action.c                                                                         [OK]
+Compiling: quantum/action_layer.c                                                                   [OK]
+Compiling: quantum/action_tapping.c                                                                 [OK]
+Compiling: quantum/action_util.c                                                                    [OK]
+Compiling: quantum/eeconfig.c                                                                       [OK]
+Compiling: quantum/keyboard.c                                                                       [OK]
+Compiling: quantum/keymap_common.c                                                                  [OK]
+Compiling: quantum/keycode_config.c                                                                 [OK]
+Compiling: quantum/sync_timer.c                                                                     [OK]
+Compiling: quantum/logging/debug.c                                                                  [OK]
+Compiling: quantum/logging/sendchar.c                                                               [OK]
+Compiling: quantum/process_keycode/process_default_layer.c                                          [OK]
+Compiling: quantum/process_keycode/process_oneshot.c                                                [OK]
+Compiling: quantum/process_keycode/process_quantum.c                                                [OK]
+Compiling: quantum/nvm/eeprom/nvm_eeconfig.c                                                        [OK]
+Compiling: quantum/logging/print.c                                                                  [OK]
+Compiling: quantum/matrix_common.c                                                                  [OK]
+Compiling: quantum/matrix.c                                                                         [OK]
+Compiling: quantum/debounce/sym_defer_g.c                                                           [OK]
+Compiling: quantum/main.c                                                                           [OK]
+Compiling: lib/printf/src/printf/printf.c                                                           [OK]
+Compiling: drivers/eeprom/eeprom_driver.c                                                           [OK]
+Compiling: drivers/eeprom/eeprom_wear_leveling.c                                                    [OK]
+Compiling: quantum/wear_leveling/wear_leveling.c                                                    [OK]
+Compiling: platforms/chibios/drivers/wear_leveling/wear_leveling_rp2040_flash.c                     [OK]
+Compiling: quantum/raw_hid.c                                                                        [OK]
+Compiling: lib/fnv/qmk_fnv_type_validation.c                                                        [OK]
+Compiling: lib/fnv/hash_32a.c                                                                       [OK]
+Compiling: lib/fnv/hash_64a.c                                                                       [OK]
+Compiling: drivers/oled/oled_driver.c                                                               [OK]
+Compiling: quantum/encoder.c                                                                        [OK]
+Compiling: drivers/encoder/encoder_quadrature.c                                                     [OK]
+Compiling: quantum/bootmagic/bootmagic.c                                                            [OK]
+Compiling: quantum/dynamic_keymap.c                                                                 [OK]
+Compiling: quantum/nvm/eeprom/nvm_dynamic_keymap.c                                                  [OK]
+Compiling: quantum/process_keycode/process_grave_esc.c                                              [OK]
+Compiling: quantum/process_keycode/process_magic.c                                                  [OK]
+Compiling: quantum/send_string/send_string.c                                                        [OK]
+Compiling: quantum/process_keycode/process_space_cadet.c                                            [OK]
+Compiling: quantum/process_keycode/process_tri_layer.c                                              [OK]
+Compiling: quantum/tri_layer.c                                                                      [OK]
+Compiling: quantum/via.c                                                                            [OK]
+Compiling: quantum/nvm/eeprom/nvm_via.c                                                             [OK]
+Compiling: tmk_core/protocol/host.c                                                                 [OK]
+Compiling: tmk_core/protocol/report.c                                                               [OK]
+Compiling: tmk_core/protocol/usb_device_state.c                                                     [OK]
+Compiling: tmk_core/protocol/usb_util.c                                                             [OK]
+Compiling: platforms/suspend.c                                                                      [OK]
+Compiling: platforms/synchronization_util.c                                                         [OK]
+Compiling: platforms/timer.c                                                                        [OK]
+Compiling: platforms/chibios/hardware_id.c                                                          [OK]
+Compiling: platforms/chibios/platform.c                                                             [OK]
+Compiling: platforms/chibios/suspend.c                                                              [OK]
+Compiling: platforms/chibios/timer.c                                                                [OK]
+Compiling: platforms/chibios/bootloaders/rp2040.c                                                   [OK]
+Compiling: platforms/chibios/drivers/i2c_master.c                                                   [OK]
+Archiving: .build/obj_modupad_via/i2c_master.o                                                      [OK]
+Assembling: lib/chibios/os/common/startup/ARMCMx/compilers/GCC/crt0_v6m.S                           [OK]
+Assembling: lib/chibios/os/common/startup/ARMCMx/compilers/GCC/vectors.S                            [OK]
+Assembling: lib/chibios/os/common/ports/ARMv6-M-RP2/compilers/GCC/chcoreasm.S                       [OK]
+Compiling: tmk_core/protocol/chibios/usb_main.c                                                     [OK]
+Compiling: tmk_core/protocol/chibios/chibios.c                                                      [OK]
+Compiling: tmk_core/protocol/usb_descriptor.c                                                       [OK]
+Compiling: tmk_core/protocol/chibios/usb_driver.c                                                   [OK]
+Compiling: tmk_core/protocol/chibios/usb_endpoints.c                                                [OK]
+Compiling: tmk_core/protocol/chibios/usb_report_handling.c                                          [OK]
+Compiling: tmk_core/protocol/chibios/usb_util.c                                                     [OK]
+Compiling: lib/chibios/os/common/startup/ARMCMx/compilers/GCC/crt1.c                                [OK]
+Compiling: lib/chibios/os/rt/src/chsys.c                                                            [OK]
+Compiling: lib/chibios/os/rt/src/chrfcu.c                                                           [OK]
+Compiling: lib/chibios/os/rt/src/chdebug.c                                                          [OK]
+Compiling: lib/chibios/os/rt/src/chtrace.c                                                          [OK]
+Compiling: lib/chibios/os/rt/src/chvt.c                                                             [OK]
+Compiling: lib/chibios/os/rt/src/chschd.c                                                           [OK]
+Compiling: lib/chibios/os/rt/src/chinstances.c                                                      [OK]
+Compiling: lib/chibios/os/rt/src/chthreads.c                                                        [OK]
+Compiling: lib/chibios/os/rt/src/chtm.c                                                             [OK]
+Compiling: lib/chibios/os/rt/src/chstats.c                                                          [OK]
+Compiling: lib/chibios/os/rt/src/chregistry.c                                                       [OK]
+Compiling: lib/chibios/os/rt/src/chsem.c                                                            [OK]
+Compiling: lib/chibios/os/rt/src/chmtx.c                                                            [OK]
+Compiling: lib/chibios/os/rt/src/chcond.c                                                           [OK]
+Compiling: lib/chibios/os/rt/src/chevents.c                                                         [OK]
+Compiling: lib/chibios/os/rt/src/chmsg.c                                                            [OK]
+Compiling: lib/chibios/os/rt/src/chdynamic.c                                                        [OK]
+Compiling: lib/chibios/os/common/ports/ARMv6-M-RP2/chcore.c                                         [OK]
+Compiling: lib/chibios/os/hal/osal/rt-nil/osal.c                                                    [OK]
+Compiling: lib/chibios/os/oslib/src/chmboxes.c                                                      [OK]
+Compiling: lib/chibios/os/oslib/src/chmemcore.c                                                     [OK]
+Compiling: lib/chibios/os/oslib/src/chmemheaps.c                                                    [OK]
+Compiling: lib/chibios/os/oslib/src/chmempools.c                                                    [OK]
+Compiling: lib/chibios/os/oslib/src/chpipes.c                                                       [OK]
+Compiling: lib/chibios/os/oslib/src/chobjcaches.c                                                   [OK]
+Compiling: lib/chibios/os/oslib/src/chdelegates.c                                                   [OK]
+Compiling: lib/chibios/os/oslib/src/chfactory.c                                                     [OK]
+Compiling: lib/chibios/os/hal/src/hal.c                                                             [OK]
+Compiling: lib/chibios/os/hal/src/hal_st.c                                                          [OK]
+Compiling: lib/chibios/os/hal/src/hal_buffers.c                                                     [OK]
+Compiling: lib/chibios/os/hal/src/hal_queues.c                                                      [OK]
+Compiling: lib/chibios/os/hal/src/hal_flash.c                                                       [OK]
+Compiling: lib/chibios/os/hal/src/hal_mmcsd.c                                                       [OK]
+Compiling: lib/chibios/os/hal/src/hal_adc.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_can.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_crypto.c                                                      [OK]
+Compiling: lib/chibios/os/hal/src/hal_dac.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_efl.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_gpt.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_i2c.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_i2s.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_icu.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_mac.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_mmc_spi.c                                                     [OK]
+Compiling: lib/chibios/os/hal/src/hal_pal.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_pwm.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_rtc.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_sdc.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_serial.c                                                      [OK]
+Compiling: lib/chibios/os/hal/src/hal_serial_usb.c                                                  [OK]
+Compiling: lib/chibios/os/hal/src/hal_sio.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_spi.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_trng.c                                                        [OK]
+Compiling: lib/chibios/os/hal/src/hal_uart.c                                                        [OK]
+Compiling: lib/chibios/os/hal/src/hal_usb.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_wdg.c                                                         [OK]
+Compiling: lib/chibios/os/hal/src/hal_wspi.c                                                        [OK]
+Compiling: lib/chibios/os/hal/ports/common/ARMCMx/nvic.c                                            [OK]
+Compiling: lib/chibios/os/hal/ports/RP/RP2040/rp_isr.c                                              [OK]
+Compiling: lib/chibios/os/hal/ports/RP/RP2040/hal_lld.c                                             [OK]
+Compiling: lib/chibios/os/hal/ports/RP/LLD/DMAv1/rp_dma.c                                           [OK]
+Compiling: lib/chibios/os/hal/ports/RP/LLD/GPIOv1/hal_pal_lld.c                                     [OK]
+Compiling: lib/chibios/os/hal/ports/RP/LLD/SPIv1/hal_spi_lld.c                                      [OK]
+Compiling: lib/chibios/os/hal/ports/RP/LLD/TIMERv1/hal_st_lld.c                                     [OK]
+Compiling: lib/chibios/os/hal/ports/RP/LLD/UARTv1/hal_sio_lld.c                                     [OK]
+Compiling: lib/chibios/os/hal/ports/RP/LLD/RTCv1/hal_rtc_lld.c                                      [OK]
+Compiling: lib/chibios/os/hal/ports/RP/LLD/WDGv1/hal_wdg_lld.c                                      [OK]
+Compiling: lib/chibios-contrib/os/hal/ports/RP/LLD/I2Cv1/hal_i2c_lld.c                              [OK]
+Compiling: lib/chibios-contrib/os/hal/ports/RP/LLD/PWMv1/hal_pwm_lld.c                              [OK]
+Compiling: lib/chibios-contrib/os/hal/ports/RP/LLD/ADCv1/hal_adc_lld.c                              [OK]
+Compiling: lib/chibios-contrib/os/hal/ports/RP/LLD/USBDv1/hal_usb_lld.c                             [OK]
+Compiling: lib/chibios/os/hal/boards/RP_PICO_RP2040/board.c                                         [OK]
+Compiling: lib/chibios/os/hal/lib/streams/chprintf.c                                                [OK]
+Compiling: lib/chibios/os/hal/lib/streams/chscanf.c                                                 [OK]
+Compiling: lib/chibios/os/hal/lib/streams/memstreams.c                                              [OK]
+Compiling: lib/chibios/os/hal/lib/streams/nullstreams.c                                             [OK]
+Compiling: lib/chibios/os/hal/lib/streams/bufstreams.c                                              [OK]
+Compiling: lib/chibios/os/various/syscalls.c                                                        [OK]
+Compiling: platforms/chibios/syscall-fallbacks.c                                                    [OK]
+Compiling: platforms/chibios/wait.c                                                                 [OK]
+Compiling: platforms/chibios/synchronization_util.c                                                 [OK]
+Compiling: platforms/chibios/interrupt_handlers.c                                                   [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c                                     [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_pll/pll.c                                           [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_pio/pio.c                                           [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_timer/timer.c                                       [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_flash/flash.c                                       [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c                                         [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_claim/claim.c                                       [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c                                 [OK]
+Compiling: lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c                                         [OK]
+Compiling: lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c                                       [OK]
+Compiling: platforms/chibios/vendors/RP/stage2_bootloaders.c                                        [OK]
+Compiling: platforms/chibios/vendors/RP/pico_sdk_shims.c                                            [OK]
+Assembling: lib/pico-sdk/src/rp2_common/pico_divider/divider.S                                      [OK]
+Assembling: lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S                       [OK]
+Linking: .build/modupad_via.elf                                                                     [OK]
+Creating UF2 file for deployment: .build/modupad_via.uf2                                            [OK]
+Copying modupad_via.uf2 to qmk_firmware folder                                                      [OK]
+[lasipK@DESKTOP-QTJO234 ~]$
