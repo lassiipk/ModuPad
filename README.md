@@ -1,5 +1,8 @@
 # MODUPAD
-<img width="1920" height="1080" alt="ModuPad_FullProduct_Image" src="https://github.com/user-attachments/assets/18347e8f-02f0-41bc-9357-31d783e794c6" />
+| CAD | *IRL* |
+|-----------|-----|
+| <img width="1920" height="1080" alt="ModuPad_FullProduct_Image" src="https://github.com/user-attachments/assets/18347e8f-02f0-41bc-9357-31d783e794c6" /> | ![IMG_20260211_111318](https://github.com/user-attachments/assets/b86d9a54-5fc8-47c1-bec7-dc597c89f8b0) |
+
 
 **MODUPAD** is a compact **3×3 programmable macropad with a rotary encoder** designed with a **macro‑first, learning‑driven philosophy**.  
 
@@ -50,19 +53,6 @@ This project prioritizes **learning clarity, reasoning, and correctness** over v
 
 ---
 
-## Firmware Overview
-
-- **Firmware Framework:** KMK (Python‑based)
-- **Reason for KMK**
-  - Python readability
-  - Clear firmware structure
-  - No dependency on VIA
-  - Easier reasoning without hardware in hand
-
-Firmware was designed **before physical assembly**, allowing logic review and iteration in advance.
-
----
-
 ## Encoder Behavior
 
 ### Encoder Rotation
@@ -95,9 +85,10 @@ Firmware was designed **before physical assembly**, allowing logic review and it
 
 OLED behavior is **event‑driven**, not continuously animated.
 
+<!--
 ---
 
-## Development Status (Current)
+ ## Development Status (Current)
 
 - [x] Concept defined
 - [x] Schematic completed
@@ -109,6 +100,20 @@ OLED behavior is **event‑driven**, not continuously animated.
 - [x] Project uploaded to GitHub
 - [ ] Hardware fabrication & assembly
 - [ ] Flashing & physical testing
+-->
+---
+
+## Firmware Overview
+
+- **Firmware Framework:** KMK (Python‑based)
+- **Reason for KMK**
+  - Python readability
+  - Clear firmware structure
+  - No dependency on VIA
+  - Easier reasoning without hardware in hand
+
+Firmware was designed **before physical assembly**, allowing logic review and iteration in advance.
+
 
 ---
 
@@ -121,7 +126,8 @@ OLED behavior is **event‑driven**, not continuously animated.
 Every decision made in this project supports **clarity, control, and learning**.
 
 ---
-## BOM:
+
+## Bill of Materials (BOM):
 - **Microcontroller:** Seeed Studio XIAO RP2040
 - **Keys:** 9 × MX‑style switches
 - **Diodes:** 10 1N4148 Diodes (matrix isolation)
@@ -130,21 +136,14 @@ Every decision made in this project supports **clarity, control, and learning**.
 - **Connectivity:** USB‑C
 - **Case:** Custom‑designed in Fusion 360, 3D‑printed
 
-All hardware choices prioritize **documentation availability, beginner accessibility, and reliability**.
-
 ---
+
 | Schematic | PCB | Case |
 |-----------|-----|------|
 | <img src="https://github.com/user-attachments/assets/f3e017b2-80b7-48d1-9e30-7a34b8d917aa" alt="KiCad Schematic" width="600"> | <img src="https://github.com/user-attachments/assets/1682921c-09cf-4254-99f6-64b99035cbf7" alt="KiCad PCB" width="600"> | <img src="https://github.com/user-attachments/assets/2018dd81-1d8e-40cc-a252-7573122f007c" alt="Case Screenshot" width="600"> |
 
 ---
 
-## License
-
-This project is open‑source and intended for **educational and personal use**.  
-License details will be added as the project evolves.
-
----
 ### Timeline
 
 **Project Started:** 19th December, 2025 | 11:58 PM
@@ -152,3 +151,11 @@ License details will be added as the project evolves.
 **Project Ended:** 2nd January, 2026 | 7:58 PM
 
 **Project Submited:** 2nd January, 2026 | 11:17 PM
+
+**Project 99% Completed:** 12 Febuary | 1:00 PM
+
+---
+
+## License
+
+This project is open‑source and intended for **educational and personal use**.  
