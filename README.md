@@ -154,6 +154,8 @@ Every decision made in this project supports **clarity, control, and learning**.
 
 **Project 99% Completed:** 12 Febuary | 1:00 PM
 
+**Project 100% Completed:** N/a
+
 ---
 
 ## License
