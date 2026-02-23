@@ -15,3 +15,7 @@ However, no matter what I tried, only four keys were functioning. The rest were 
 > Journal Entry Written: 11 Feb 2026 | 12:50 - AM
 
 ---
+
+<img width="611" height="1080" alt="Screenshot 2026-02-23 235302" src="https://github.com/user-attachments/assets/3e2956c0-0e2b-45fa-b9c3-0616bd830114" />
+
+---
