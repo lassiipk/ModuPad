@@ -13,3 +13,7 @@ No hardware issues.
 > Journal Entry Written: 11 Feb 2026 | 12:50 - AM
 
 ---
+
+<img width="599" height="1005" alt="Screenshot 2026-02-23 231241" src="https://github.com/user-attachments/assets/591d4367-93cb-43c9-8fcf-78cee0145ad9" />
+
+---
