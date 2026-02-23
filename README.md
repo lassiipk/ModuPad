@@ -9,12 +9,10 @@
 This project represents a **from‑scratch learning journey** covering electronics, schematic design, PCB layout, firmware architecture, and documentation—while still resulting in a practical, daily‑use device.
 
 ---
-
+<!--
 ## Device Identity
 
 > **MODUPAD** is a **3×3 macropad + rotary encoder** with layered keymaps, encoder‑driven system control, and an event‑based OLED interface.
-
-The identity of MODUPAD evolved during development and directly reflects lessons learned, simplifications made, and constraints discovered during real design work.
 
 ---
 
@@ -29,8 +27,8 @@ The identity of MODUPAD evolved during development and directly reflects lessons
 - Produce a focused, usable macropad without feature creep
 
 This project prioritizes **learning clarity, reasoning, and correctness** over visual complexity.
+-->
 
----
 
 ## Final Key Features (As Built)
 
@@ -52,7 +50,7 @@ This project prioritizes **learning clarity, reasoning, and correctness** over v
 - **No RGB lighting** (removed during redesign to reduce complexity)
 
 ---
-
+<!--
 ## Encoder Behavior
 
 ### Encoder Rotation
@@ -85,7 +83,7 @@ This project prioritizes **learning clarity, reasoning, and correctness** over v
 
 OLED behavior is **event‑driven**, not continuously animated.
 
-<!--
+
 ---
 
  ## Development Status (Current)
@@ -101,12 +99,12 @@ OLED behavior is **event‑driven**, not continuously animated.
 - [ ] Hardware fabrication & assembly
 - [ ] Flashing & physical testing
 -->
----
+
 
 ## Firmware Overview
 
 - **Firmware Framework:** KMK (Python‑based)
-- **Reason for KMK**
+<!-- **Reason for KMK**
   - Python readability
   - Clear firmware structure
   - No dependency on VIA
@@ -114,7 +112,7 @@ OLED behavior is **event‑driven**, not continuously animated.
 
 Firmware was designed **before physical assembly**, allowing logic review and iteration in advance.
 
-
+-->
 ---
 
 ## Why MODUPAD?
