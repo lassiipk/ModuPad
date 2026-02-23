@@ -112,7 +112,7 @@ OLED behavior is **event‑driven**, not continuously animated.
 
 Firmware was designed **before physical assembly**, allowing logic review and iteration in advance.
 
--->
+
 ---
 
 ## Why MODUPAD?
@@ -124,6 +124,8 @@ Firmware was designed **before physical assembly**, allowing logic review and it
 Every decision made in this project supports **clarity, control, and learning**.
 
 ---
+
+-->
 
 ## Bill of Materials (BOM):
 - **Microcontroller:** Seeed Studio XIAO RP2040
