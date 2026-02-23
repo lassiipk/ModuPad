@@ -11,3 +11,7 @@ One big advantage of KMK was flashing. First, I installed CircuitPython onto the
 Despite that convenience, I struggled a lot with functionality. After many failed attempts, I quit for the day and went to sleep.
 
 ---
+
+> Journal Entry Written: 11 Feb 2026 | 12:50 - AM
+
+---
