@@ -17,3 +17,7 @@ So we unsoldered the switches, modified (cut) the upper plate to properly align 
 Honestly, it looked great after the modification. Really satisfying to see it come together.
 
 ---
+
+> Journal Entry Written: 11 Feb 2026 | 12:50 - AM
+
+---
