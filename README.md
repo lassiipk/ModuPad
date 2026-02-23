@@ -104,6 +104,9 @@ OLED behavior is **event‑driven**, not continuously animated.
 ## Firmware Overview
 
 - **Firmware Framework:** KMK (Python‑based)
+
+---
+
 <!-- **Reason for KMK**
   - Python readability
   - Clear firmware structure
