@@ -15,3 +15,11 @@ Despite that convenience, I struggled a lot with functionality. After many faile
 > Journal Entry Written: 11 Feb 2026 | 12:50 - AM
 
 ---
+
+> The Image provided is of Compiling statusof  my OMK based Firmware.
+>
+> Ignore the mess around my Desk and LCD, its always like this!
+
+![733baa89-5d99-4c6c-8100-c8d66cede92e](https://github.com/user-attachments/assets/f2cf72a5-fc7f-4448-8615-f8935c5b9e46)
+
+---
