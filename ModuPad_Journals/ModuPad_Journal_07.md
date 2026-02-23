@@ -11,3 +11,7 @@ My encoder button was part of the matrix, so I got that working too.
 However, no matter what I tried, only four keys were functioning. The rest were completely unresponsive. I couldn’t figure out why.
 
 ---
+
+> Journal Entry Written: 11 Feb 2026 | 12:50 - AM
+
+---
