@@ -29,7 +29,7 @@ This project represents a **from‑scratch learning journey** covering electroni
 This project prioritizes **learning clarity, reasoning, and correctness** over visual complexity.
 -->
 
-
+<!--
 ## Final Key Features (As Built)
 
 - **3×3 key matrix (9 keys)** dedicated entirely to macros
